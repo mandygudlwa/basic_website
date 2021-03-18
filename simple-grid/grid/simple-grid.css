@@ -225,7 +225,7 @@ p {
 }
 
 
-/* fgjhkdfghjklm,;'.mkjf;skf'a;l;LsdoujpekASKALKJD;LL,DAJEIIW'E;'E;UWOEJKW;D,KHJGKALWJD */
+/* fgjhkdfghjklm,;'.mkjf;skf'a;l;LsdoujpekASKALKJD;LL,DAJEIIW'E;'E;UWOEJKW;*/
 * {
   box-sizing: border-box;
 }
@@ -357,9 +357,7 @@ p {
   font-weight: bolder;
   font-size: 15px;
 }
-.city{
-  text-align: center;
-}
+
 .hc{
   text-align: center;
 }
