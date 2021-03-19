@@ -91,10 +91,6 @@ p {
   text-align: left;
 }
 
-.right {
-  text-align: right;
-}
-
 .center {
   text-align: center;
   margin-left: auto;
@@ -266,7 +262,7 @@ p {
 .imy{
     float: left;
     padding-bottom: 25px;
-    padding-right: 25px;
+    padding-right: 5px;
 }
 
 * {
@@ -361,11 +357,30 @@ p {
 .hc{
   text-align: center;
 }
+
+.hc2{
+  text-align: center;
+}
+
+.hc1{
+  text-align: center;
+}
 .place{
   padding-bottom: 50px;
 }
+.myname{
+  font-size: 50px;
+}
 @media only screen and (min-width: 45em) {  /* 720px */
   .myname{
-    padding-left: 300px;
+    padding-left: 200px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .myname {
+ font-size: 15px;
+  }
+  .imy{
+    width: 500px;
   }
 }
