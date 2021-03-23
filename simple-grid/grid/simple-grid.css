@@ -379,16 +379,25 @@ p {
 @media only screen and (max-width: 600px) {
   .myname {
  font-size: 15px;
+ padding-left: 130px;
   }
   .imy{
     width: 500px;
   }
   .selfie{
     width: 150px;
-    padding-top: 50px;
+    padding-top: 75px;
 }
 }
   .heading1{
     text-align: center;
   }
   .selfie { position: relative; top: -80px; }
+  .footer {
+    padding: 1em;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+  }

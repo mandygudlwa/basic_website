@@ -191,13 +191,14 @@ text-align: center;
 @media only screen and (max-width: 600px) {
   .myname {
  font-size: 13px;
+ padding-left: 150px;
   }
   .imy{
     width: 500px;
   }
   .selfie{
     width: 150px;
-    padding-top: 50px;
+    padding-top: 75px;
 }
 }
   
