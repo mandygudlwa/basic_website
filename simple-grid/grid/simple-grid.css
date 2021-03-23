@@ -373,7 +373,7 @@ p {
 }
 @media only screen and (min-width: 45em) {  /* 720px */
   .myname{
-    padding-left: 200px;
+    padding-left: 120px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -383,4 +383,12 @@ p {
   .imy{
     width: 500px;
   }
+  .selfie{
+    width: 150px;
+    padding-top: 50px;
 }
+}
+  .heading1{
+    text-align: center;
+  }
+  .selfie { position: relative; top: -80px; }
