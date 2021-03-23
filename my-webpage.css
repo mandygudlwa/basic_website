@@ -22,8 +22,6 @@ body {
 .clearfix {
 overflow: auto;
 zoom: 1;
-padding-left: 3%;
-padding-right: 3%;
 }
 .content {
   padding: 1em;
@@ -77,6 +75,7 @@ color: white;
   float: left;
   padding-bottom: 25px;
   padding-right: 5px;
+  padding-left: 0%;
 }
 
 * {
@@ -167,9 +166,7 @@ padding-right: 25px;
 font-weight: bolder;
 font-size: 15px;
 }
-.city{
-text-align: center;
-}
+
 .hc{
 text-align: center;
 }
@@ -184,7 +181,7 @@ text-align: center;
 }
 @media only screen and (min-width: 45em) {  /* 720px */
   .myname{
-    padding-left: 200px;
+    padding-left: 120px;
   }
 }
 .myname{
@@ -199,9 +196,18 @@ text-align: center;
 
 @media only screen and (max-width: 600px) {
   .myname {
- font-size: 15px;
+ font-size: 13px;
   }
   .imy{
     width: 500px;
   }
+  .selfie{
+    width: 150px;
+    padding-top: 50px;
+}
+}
+  
+.selfie { position: relative; top: -80px; }
+.heading1{
+  text-align: ;
 }
