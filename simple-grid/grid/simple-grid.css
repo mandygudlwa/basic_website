@@ -373,7 +373,7 @@ p {
 }
 @media only screen and (min-width: 45em) {  /* 720px */
   .myname{
-    padding-left: 120px;
+    padding-left: 100px;
   }
 }
 @media only screen and (max-width: 600px) {

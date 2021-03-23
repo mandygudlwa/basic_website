@@ -74,8 +74,7 @@ color: white;
 .imy{
   float: left;
   padding-bottom: 25px;
-  padding-right: 5px;
-  padding-left: 0%;
+  padding-right: 25px;
 }
 
 * {
@@ -160,12 +159,7 @@ overflow: auto;
 .footer{
 font-size: small;
 }
-.name{
-float:left;
-padding-right: 25px;
-font-weight: bolder;
-font-size: 15px;
-}
+
 
 .hc{
 text-align: center;
@@ -181,7 +175,7 @@ text-align: center;
 }
 @media only screen and (min-width: 45em) {  /* 720px */
   .myname{
-    padding-left: 120px;
+    padding-left: 100px;
   }
 }
 .myname{
@@ -211,3 +205,5 @@ text-align: center;
 .heading1{
   text-align: center;
 }
+
+
